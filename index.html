@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #f7f7f7;
+            border-top: 5px solid #9370DB;
+        }
+
+        .rating-section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .rating-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .rating-item img {
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+        }
+
+        .rating-text {
+            font-size: 14px;
+        }
+
+        .quick-links,
+        .portfolio,
+        .connect {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .quick-links h3, 
+        .portfolio h3, 
+        .connect h3 {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .connect a {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .connect img {
+            width: 25px;
+            height: 25px;
+        }
+
+        .quick-links a, 
+        .portfolio a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .quick-links a:hover, 
+        .portfolio a:hover {
+            color: #9370DB;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="rating-section">
+            <div class="rating-item">
+                <img src="https://via.placeholder.com/40" alt="Company 1">
+                <div class="rating-text">4.5/5 Rating On Lorem</div>
+            </div>
+            <div class="rating-item">
+                <img src="https://via.placeholder.com/40" alt="Company 2">
+                <div class="rating-text">9/10 Rating On Ipsum</div>
+            </div>
+            <div class="rating-item">
+                <img src="https://via.placeholder.com/40" alt="Company 3">
+                <div class="rating-text">4.5/5 Rating On Dorel</div>
+            </div>
+        </div>
+
+        <div class="quick-links">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="#">Skills</a>
+            <a href="#">Education</a>
+            <a href="#">Projects</a>
+            <a href="#">Recommendations</a>
+        </div>
+
+        <div class="portfolio">
+            <h3>Portfolio</h3>
+            <a href="#">Frontend Development</a>
+            <a href="#">Backend Development</a>
+            <a href="#">Website Design</a>
+            <a href="#">Machine Learning</a>
+            <a href="#">Problem Solving & DSA</a>
+        </div>
+
+        <div class="connect">
+            <h3>Connect</h3>
+            <a href="#"><img src="https://via.placeholder.com/25" alt="LinkedIn">LinkedIn</a>
+            <a href="#"><img src="https://via.placeholder.com/25" alt="Instagram">Instagram</a>
+            <a href="#"><img src="https://via.placeholder.com/25" alt="Facebook">Facebook</a>
+        </div>
+    </div>
+
+</body>
+</html>
